@@ -1,0 +1,8 @@
+Prerequisite:
+
+   Following packages needs to be installed:
+
+	1) NumPy
+	2) SciPy
+	3) sklearn
+
