@@ -8,3 +8,5 @@ The code template used is similar to code given at link: https://github.com/7oss
 
 Code compatible:
  -- Python: 2.* or 3.*
+
+This code is available for non-commercial purposes. Would appreciate an acknowledgment if you use it in your work.
