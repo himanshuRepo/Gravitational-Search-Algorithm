@@ -28,8 +28,8 @@ def massCalculation(fit,PopSize,M):
         best = Fmin
         worst = Fmax
         
-    for p in range(0,PopSize):
-        M[p] = (fit[p]-worst)/(best-worst)
+        for p in range(0,PopSize):
+           M[p] = (fit[p]-worst)/(best-worst)
             
     Msum=sum(M)
     for q in range(0,PopSize):
