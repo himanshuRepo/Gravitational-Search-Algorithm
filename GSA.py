@@ -3,9 +3,8 @@
 Python code of Gravitational Search Algorithm (GSA)
 Reference: Rashedi, Esmat, Hossein Nezamabadi-Pour, and Saeid Saryazdi. "GSA: a gravitational search algorithm." 
            Information sciences 179.13 (2009): 2232-2248.	
-
-Coded by: Himanshu Mittal, himanshu.mittal224@gmail.com
-The code template used is similar to code given at link: https://github.com/7ossam81/EvoloPy and matlab version of GSA at mathworks.
+Coded by: Mukesh Saraswat (saraswatmukesh@gmail.com), Himanshu Mittal (emailid: himanshu.mittal224@gmail.com) and Raju Pal (emailid: raju3131.pal@gmail.com)
+The code template used is similar given at link: https://github.com/7ossam81/EvoloPy and matlab version of GSA at mathworks.
 
 Purpose: Main file of Gravitational Search Algorithm(GSA) 
             for minimizing of the Objective Function
