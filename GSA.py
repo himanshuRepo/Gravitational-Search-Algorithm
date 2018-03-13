@@ -50,16 +50,19 @@ def GSA(objf,lb,ub,dim,PopSize,iters):
     
     for l in range(0,iters):
         for i in range(0,PopSize):
-            pos[i,:]=numpy.clip(pos[i,:], lb, ub)
-            
+            l1 = [None] * dim
+            l1=numpy.clip(pos[i,:], lb, ub)
+            pos[i,:]=l1
+
             #Calculate objective function for each particle
-            fitness=objf(pos[i,:])
+            fitness=[]
+            fitness=objf(l1)
             fit[i]=fitness
     
                 
             if(gBestScore>fitness):
                 gBestScore=fitness
-                gBest=pos[i,:]
+                gBest=l1           
         
         """ Calculating Mass """
         M = massCalculation.massCalculation(fit,PopSize,M)
