@@ -1,4 +1,4 @@
-# GSA_PythonCode
+#  Gravitational Search Algorithm
 Python Code for Gravitational Search Algorithm (GSA) for minimization of a benchmark function.
 
 Reference: Rashedi, Esmat, Hossein Nezamabadi-Pour, and Saeid Saryazdi. "GSA: a gravitational search algorithm." 
